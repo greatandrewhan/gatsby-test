@@ -13,8 +13,8 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        accessToken: `${process.env.CONTENTFUL_SPACE_ID}`,
-        spaceId: `${process.env.CONTENTFUL_ACCESS_TOKEN}`,
+        accessToken: "",
+        spaceId: "",
       },
     },
     "gatsby-plugin-image",
